@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma;
+}
+
+body {
+    background: #f2f2f2;
+}
+
+/* کانتینر اصلی */
+.container {
+    width: 1000px;
+    margin: 40px auto;
+    border: 4px solid red;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+/* کارت‌ها */
+.card {
+    width: 300px;
+    background: white;
+    border: 2px solid #ccc;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* کارت وسط */
+.card-center {
+    background: #1abc9c;
+    color: white;
+}
+
+/* قیمت */
+.price {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+/* لیست */
+ul {
+    list-style: none;
+    margin: 15px 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* دکمه */
+button {
+    margin-top: auto;
+    padding: 10px;
+    border: none;
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+
+.card-center button {
+    background: gold;
+    color: black;
+}
